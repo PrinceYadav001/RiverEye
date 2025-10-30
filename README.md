@@ -8,7 +8,6 @@ RiverEye is a comprehensive flood monitoring and early warning system built for 
 - **Water Level Tracking**: Live water level monitoring with historical data visualization
 - **Flow Rate Analysis**: Real-time water flow measurements with directional indicators
 - **Weather Integration**: Current weather conditions and 24-hour forecasts
-- **Interactive Maps**: Google Maps integration showing flood monitoring hardware locations
 
 ### 🔔 Smart Alert System
 - **Multi-level Warnings**: Warning and critical level alerts
@@ -35,7 +34,6 @@ RiverEye is a comprehensive flood monitoring and early warning system built for 
 ### Backend & APIs
 - **Next.js API Routes** - Serverless API endpoints
 - **OpenWeather API** - Weather data integration
-- **Google Maps API** - Interactive mapping
 - **Fast2SMS API** - SMS notification service
 
 ### Hardware Integration
@@ -59,9 +57,6 @@ Create a `.env.local` file in the root directory:
 ```env
 # OpenWeather API (for weather data)
 NEXT_PUBLIC_OPENWEATHER_KEY=your_openweather_api_key
-
-# Google Maps API (for mapping features)
-NEXT_PUBLIC_GOOGLE_MAPS_API_KEY=your_google_maps_api_key
 
 # ESP32 Hardware URL (your device IP)
 NEXT_PUBLIC_ESP32_URL=http://your_esp32_ip/data
@@ -110,7 +105,7 @@ src/
 │   │   ├── overview/            # Main monitoring dashboard
 │   │   ├── weather/             # Weather monitoring page
 │   │   ├── device/              # Hardware status page
-│   │   └── maps/                # Interactive maps
+│   │   
 │   ├── api/                     # API routes
 │   │   ├── esp32/               # ESP32 data proxy
 │   │   ├── log/                 # Data logging
@@ -159,12 +154,6 @@ public/                          # Static assets
 - Sensor health monitoring (WiFi, RTC, SD Card, MPU)
 - Real-time system diagnostics
 - Hardware tamper detection
-
-### Maps Page
-- Interactive Google Maps integration
-- Flood monitoring site locations
-- Hardware deployment visualization
-- Geographic context for monitoring areas
 
 ## 🔧 Hardware Configuration
 
