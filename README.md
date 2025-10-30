@@ -207,28 +207,6 @@ The application can be deployed on any platform supporting Next.js:
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🏆 Smart India Hackathon
-
-This project was developed for Smart India Hackathon (SIH) focusing on flood monitoring and early warning systems. It addresses the critical need for real-time flood monitoring infrastructure in India's flood-prone regions.
-
-## 📞 Support
-
-For support and queries:
-- Create an issue in this repository
-- Contact: [your-email@domain.com]
-
-## 🙏 Acknowledgments
-
-- Smart India Hackathon organizers
-- OpenWeather API for weather data
-- Google Maps Platform for mapping services
-- Fast2SMS for SMS notification services
-- All team members and contributors
-
----
-
-**Built with ❤️ for Smart India Hackathon by Team RiverEye**
+**Built ❤️ by Team RiverEye**
