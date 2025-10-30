@@ -27,11 +27,7 @@ const items = [
     url: "/overview",
     icon: Home,
   },
-  {
-    title: "Flood Zones",
-    url: "/maps",
-    icon: Map,
-  },
+  
   {
     title: "Weather",
     url: "/weather",
